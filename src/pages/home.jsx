@@ -7,9 +7,9 @@ function Home(){
     return (
         <>
             <Header title="Meu Blog" />
-            <body>
-                <p>Fala dog</p>
-            </body>
+            <div>
+            <p>Fala dog</p>
+            </div>
             <Footer text="Direitos reservados" />
         </>
     );

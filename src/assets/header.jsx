@@ -9,9 +9,11 @@ export default function Header({ title }) {
           {/*
           <span className="hover:text-indigo-200 cursor-pointer">Home</span>
           */}
-          <Link to="/" className="hover:text-indigo-200 cursor-pointer">Home</Link>
-          <span className="hover:text-indigo-200 cursor-pointer">About</span>
-          
+          <Link to="/" className="hover:text-indigo-200 cursor-pointer">Pagina inicial</Link>
+          <Link to="/about" className="hover:text-indigo-200 cursor-pointer">Sobre mim</Link>
+          {/*}
+          <span className="hover:text-indigo-200 cursor-pointer">Sobre mim</span>
+          */}
         </nav>
       </div>
     </header>
